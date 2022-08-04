@@ -1,0 +1,89 @@
+﻿/*.contact {
+    background-image: url("/Image/CallMan.png");
+    background-size:cover;
+}
+    
+.details {
+    margin-left: 50%;
+}
+    */
+
+
+
+.btnman {
+    width: 25%;
+    height: 50px;
+    float: left;
+    margin-left: 40%;
+    color: #001064;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    background: #007bff;
+    border: 0;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+    .btnman:hover {
+        background: #00ff21;
+    }
+.btninfo {
+    width: 25%;
+    height: 50px;
+    float: left;
+    margin-inline: 40%;
+    color: #001064;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    background: #007bff;
+    border: 0;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Raleway';
+}
+
+.btninfo:hover {
+    background: #00ff21;
+}
+
+/*slider*/
+.slider {
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(250px*10);
+}
+/*enable auto scrolling*/
+@keyframes scroll{
+    0%{transform: translate(0);}
+    100% {
+        transform: translate(cal(-250px * 9));
+    }
+}
+
+.slide {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items:center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+.img{
+    width:100%;
+}
+
+/*image hover effect*/
+.img:hover{
+    transform: translateZ(20px;
