@@ -18,6 +18,19 @@ namespace RoyalRefridgerationAndAirConditioning.Controllers
             return View();
         }
 
+        public IActionResult Gallary()
+        {
+            return View();
+        }
+        public IActionResult Refridgeration()
+        {
+            return View();
+        }
+        public IActionResult AirConditioning()
+        {
+            return View();
+        }
+
         public IActionResult Services()
         {
             return View();

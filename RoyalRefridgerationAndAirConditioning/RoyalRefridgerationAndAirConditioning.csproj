@@ -1716,6 +1716,9 @@
     <Content Update="wwwroot\Image\07.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Update="wwwroot\Image\Aircon\WhatsApp Image 2022-08-09 at 2.35.01 PM %281%29.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="wwwroot\Image\gallary1.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

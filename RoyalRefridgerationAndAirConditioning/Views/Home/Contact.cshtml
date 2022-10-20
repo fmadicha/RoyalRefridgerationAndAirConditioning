@@ -15,106 +15,106 @@
             <span style="color: #001064; padding-top:10px;">Contact</span>
         </h3>
     </div>
-    <div class="wrapper p-5">
-        <div class="info row">
 
-            <div class="card col-6 pl-3 pr-3">
-                <h2><b>Contact info</b></h2>
-                <ul class="list-group">
-                    <li class="list-group-item pt-2 pb-2"><i class="bi bi-geo-alt m-5 text-info"></i>Elders's farm, Old Paarl Road, Kraaifontein</li>
-                    <li class="list-group-item  pt-2 pb-2"><i class="bi bi-telephone m-5 text-info"></i>+27 (0)81 597 4657</li>
-                    <li class="list-group-item  pt-2 pb-2"><i class="bi bi-whatsapp m-5 text-info"></i>+27 (0)82 066 3060</li>
-                    <li class="list-group-item  pt-2 pb-2"><i class="bi bi-envelope m-5 text-info"></i>washington@royalpaving.co.za</li>
-                    <li class="list-group-item  pt-2 pb-2"><i class="bi bi-facebook m-5 text-info"></i>https://www.facebook.com/royalpaving.co.za</li>
+    <div class=" row">
 
-                </ul>
-                <div class="pt-3 pb-3">
-                    <a href="#" class="btnman  pl-4 " style="align-content:center">Call Now</a>
-                    </div>
-                <!--newsletter-->
-                <div class="newsletter pt-3 pb-3" style=" margin-right: -15px; margin-left: -15px; height:100px;  border-radius: 25px;text-align:center">
-                    <h1><i class="bi bi-envelope m-2 text-info m-2"></i>SignUp for Newsletter  </h1>
-                </div>
-                <div class=" pt-3 pb-3 ">
-                    <input type="email" class="form-control  " style="text-align:center" id="colFormLabelLg" placeholder="Enter your Email">
-                </div>
-                <div><a href="#" class="btnman col-3 me-1  " style="align-content:center">Subscribe</a></div>
+        <div class="card col-6 pl-3 pr-3">
+            <h2><b>Contact info</b></h2>
+            <ul class="list-group">
+                <li class="list-group-item pt-2 pb-2"><i class="bi bi-geo-alt m-5 text-info"></i>Elders's farm, Old Paarl Road, Kraaifontein</li>
+                <li class="list-group-item  pt-2 pb-2"><i class="bi bi-telephone m-5 text-info"></i>+27 (0)81 597 4657</li>
+                <li class="list-group-item  pt-2 pb-2"><i class="bi bi-whatsapp m-5 text-info"></i>+27 (0)82 066 3060</li>
+                <li class="list-group-item  pt-2 pb-2"><i class="bi bi-envelope m-5 text-info"></i>washington@royalpaving.co.za</li>
+                <li class="list-group-item  pt-2 pb-2"><i class="bi bi-facebook m-5 text-info"></i>https://www.facebook.com/royalpaving.co.za</li>
+
+            </ul>
+            <div class="pt-3 pb-3">
+                <a href="#" class="btnman  pl-4 " style="align-content:center">Call Now</a>
             </div>
-
-
-
-            <div class="card  col-6 pl-3 pr-3">
-                <form asp-action="Contact" asp-controller="Home" method="post">
-                    <h2><b>Get an Appointment</b></h2>
-
-                    <div class="row mb-3">
-                        <label for="product" class="col-sm-2 col-form-label col-form-label-sm">Name</label><br />
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control " id="colFormLabelSm">
-
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <label for="estimate" class="col col-form-label">Email</label>
-                        <div class="col-sm-10">
-                            <input type="email" class="form-control" id="colFormLabel">
-                        </div>
-                    </div>
-                    <div class="row mb-3">
-                        <label for="shape" class="col ">Contact Number</label>
-                        <div class="col">
-                            <input type="email" class="form-control " id="colFormLabelLg" placeholder="">
-                        </div>
-                    </div>
-                    <div class="row  mb-3">
-                        <label for="surface" class="col">Your Surburb</label>
-                        <div class="col">
-                            <input type="email" class="form-control" id="colFormLabelLg">
-                        </div>
-                    </div>
-
-
-                    <!-- <select asp-for="ServiceTypeId" asp-items="@ViewBag.ServiceTypes" class=" form-control">
-                    <!-- <select asp-for="ServiceTypeId" asp-items="@ViewBag.ServiceTypes" class=" form-control">
-                           <option value="Bag">Click to choose the service you require</option>
-                       </select>
-                       -->
-
-                    <div class="form-floating mb-3">
-                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                            <option selected> Choose your service </option>
-                            <option value="1">Air Conditioning</option>
-                            <option value="2">Refridgeration</option>
-                            <option value="3">Heating</option>
-                        </select>
-
-                    </div>
-
-
-
-
-                    <div class="mb-3">
-                        <label for="formFileMultiple" class="form-label">Load pictures if you have</label>
-                        <input class="form-control" type="file" id="formFileMultiple" multiple>
-                    </div>
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-                        <label for="floatingTextarea2">Message</label>
-                    </div>
-
-                    <div class="col pt-4">
-
-                        <button type="button" class="btninfo " >Send</button>
-                    </div>
-                </form>
+            <!--newsletter-->
+            <div class="newsletter pt-3 pb-3" style=" margin-right: -15px; margin-left: -15px; height:100px;  border-radius: 25px;text-align:center">
+                <h1><i class="bi bi-envelope m-2 text-info m-2"></i>SignUp for Newsletter  </h1>
             </div>
-
-
+            <div class=" pt-3 pb-3 ">
+                <input type="email" class="form-control  " style="text-align:center" id="colFormLabelLg" placeholder="Enter your Email">
+            </div>
+            <div><a href="#" class="btnman col-3 me-1  " style="align-content:center">Subscribe</a></div>
         </div>
+
+
+
+        <div class="card  col-6 pl-3 pr-3">
+            <form asp-action="Contact" asp-controller="Home" method="post">
+                <h2><b>Get an Appointment</b></h2>
+
+                <div class="row mb-3">
+                    <label for="product" class="col-sm-2 col-form-label col-form-label-sm">Name</label><br />
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control " id="colFormLabelSm">
+
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="estimate" class="col col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="colFormLabel">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="shape" class="col ">Contact Number</label>
+                    <div class="col">
+                        <input type="email" class="form-control " id="colFormLabelLg" placeholder="">
+                    </div>
+                </div>
+                <div class="row  mb-3">
+                    <label for="surface" class="col">Your Surburb</label>
+                    <div class="col">
+                        <input type="email" class="form-control" id="colFormLabelLg">
+                    </div>
+                </div>
+
+
+                <!-- <select asp-for="ServiceTypeId" asp-items="@ViewBag.ServiceTypes" class=" form-control">
+                <!-- <select asp-for="ServiceTypeId" asp-items="@ViewBag.ServiceTypes" class=" form-control">
+                       <option value="Bag">Click to choose the service you require</option>
+                   </select>
+                   -->
+
+                <div class="form-floating mb-3">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option selected> Choose your service </option>
+                        <option value="1">Air Conditioning</option>
+                        <option value="2">Refridgeration</option>
+                        <option value="3">Heating</option>
+                    </select>
+
+                </div>
+
+
+
+
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Load pictures if you have</label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                </div>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Message</label>
+                </div>
+
+                <div class="col pt-4">
+
+                    <button type="button" class="btninfo ">Send</button>
+                </div>
+            </form>
+        </div>
+
+
     </div>
 
-    <!--address and location-->
-    <div class="row mt-10 mb-10" style="border:0">
+
+    <!--address and locationstyle="border:0"-->
+    <div class="row mt-5 mb-5">
 
         <p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3313.8777964034653!2d18.7549!3d-33.841262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xca701948bdbaeb12!2sRoyal%20Paving!5e0!3m2!1sen!2sza!4v1658392311950!5m2!1sen!2sza"
